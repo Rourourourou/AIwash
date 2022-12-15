@@ -38,9 +38,6 @@
     width: 10vh;
     height: 5vh;
 }
-.td2{
-    width: 200vh;
-}
 @media screen and (max-width: 768px)
 {
     .ta1{

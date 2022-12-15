@@ -54,6 +54,9 @@
 .td23{
     text-align: right;
 }
+.car{
+    width: 50%;
+ }
 @media screen and (max-width: 768px)
 {
     .ta1{
@@ -76,5 +79,8 @@
     .ta3{
         font-size: 20px;
     }
+    .car{
+        width: 90%;
+     }
 
 }

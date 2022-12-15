@@ -4,61 +4,44 @@
 }
 .td1{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     margin: 2% 0%;
+    width: 80%;
     border: #c7fffc 2px solid;
     background-color: #2fcfc6;
     color: azure;
 }
-.text1{
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 2% 3%;
+    border: #c7fffc 2px solid;
+}
+.text2{
     text-align: center;
-    border: #2fcfc6 2px solid;
-    background-color: #e8fefd;
-    color:black;
-    margin:auto auto 1%;
-    width: 90% ;
+    font-size: 100px;
+    font-weight: bold;
+    color: #e8fefd;
+}
+.text3{
+    margin: 2% auto;
 }
 .text4{
-    margin: 2% auto 2% 12%;
     width: 10vh;
     height: 5vh;
     text-align: center;
     line-height: 5vh;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 2%;
     border:#e8fefd 2px solid;
     color: #e8fefd;
     background-color: #2fcfc6;
 }
-.text3{
-    width: 10vh;
-    height: 5vh;
-}
-.ta3{
-    font-weight: bold;
-    font-size: 35px;
-    color: #2fcfc6;
-    margin: 2% auto;
-}
-.td2{
-    border-bottom: #2fcfc6 2px solid;
-    width: 200vh;
-}
-.td21{
-    border-bottom: #2fcfc6 0px;
-}
-.td22{
-    border-right: #2fcfc6 2px solid;
-}
-.td23{
-    text-align: right;
-}
-.car{
-    width: 50%;
- }
+
 @media screen and (max-width: 768px)
 {
+
     .ta1{
         margin-bottom: 3%;
     }
@@ -67,19 +50,38 @@
         flex-direction: column;
         justify-content: center;
         margin: 0%;
+        width: 80%;
         border: #c7fffc 2px solid;
         background-color: #2fcfc6;
         color: azure;
     }
-    .text1{
+    #img{
+        margin-top: 10%;
+    }
+    .img{
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: 10% auto;
+    }
+    .text2{
+        font-size: 40px;
+        color: #2fcfc6;
+    }
+    .text3{
         margin: 0% auto;
         background-color: #e8fefd;
         color:black;
+        width: 80%;
     }
-    .ta3{
-        font-size: 20px;
+
+    .text4{
+        border: #2fcfc6 2px solid;
+        color: #2fcfc6;
+        background-color: #e8fefd;
+        margin-left: 0%;
+        font-size: 15px;
     }
-    .car{
-        width: 90%;
-     }
+    
+
 }
