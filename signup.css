@@ -18,7 +18,7 @@
 }
 .text1{
     background-color: #e8fefd;
-    color:black;
+    color: #2fcfc6;
     margin: 2% auto;
     width: 80% ;
 }
@@ -68,7 +68,6 @@
     border-bottom: #2fcfc6 2px solid;
     width: 200vh;
 }
-
 .td21{
     border-bottom: #2fcfc6 0px;
 }
